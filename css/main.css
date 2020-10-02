@@ -21,7 +21,87 @@ body {
   margin: 0;
 }
 
+main {
+  padding: 1rem;
+}
+
 img {
   display: block;
   width: 100%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1rem;
+  margin: 0;
+}
+
+header {
+  padding: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 1rem;
+}
+
+nav > a {
+  color: #3783a3;
+  margin: .5rem;
+}
+
+aside {
+  border-top: solid 4px #e2e2e2;
+  border-bottom: solid 4px #e2e2e2;
+  padding: 0 1rem 1rem;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 2rem;
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+figure {
+  margin: 0;
+  padding-top: 1.5rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0 0 1.5rem;
+}
+
+figcaption > a {
+  display: block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #3783a3;
+  border: solid 3px #3783a3;
+  border-radius: 3px;
+  padding: .5em 1em .6em;
+  margin-top: 1.5rem;
+}
+
+footer {
+  margin-top: 1rem;
+  border-top: solid 4px #e2e2e2;
+  padding: 1rem 0;
+  text-align: center;
 }
