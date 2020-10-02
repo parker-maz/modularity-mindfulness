@@ -21,8 +21,8 @@ body {
   margin: 0;
 }
 
-section {
-  padding: 1rem;
+main {
+  padding: 0 1rem 1rem;
 }
 
 img {
@@ -71,22 +71,26 @@ nav li a {
 }
 
 article {
-  border-top: solid 4px #e2e2e2;
-  border-bottom: solid 4px #e2e2e2;
+  border-top: solid 3px #e2e2e2;
+  border-bottom: solid 3px #e2e2e2;
   padding: 0 1rem 1rem;
   text-align: center;
+}
+
+article p {
+  margin-bottom: .75rem;
 }
 
 h3 {
   font-weight: normal;
   font-size: 2rem;
   margin: 0;
-  padding-top: 1.5rem;
+  padding-top: 1rem;
 }
 
 figure {
   margin: 0;
-  padding-top: 1.5rem;
+  padding-top: 1.25rem;
 }
 
 h4 {
@@ -104,7 +108,7 @@ figcaption > a {
   font-size: 1rem;
   text-decoration: none;
   color: #3783a3;
-  border: solid 3px #3783a3;
+  border: solid 3px #b3d7e5;
   border-radius: 3px;
   padding: .5em 1em .6em;
   margin-top: 1.5rem;
@@ -112,7 +116,7 @@ figcaption > a {
 
 footer {
   margin-top: 1rem;
-  border-top: solid 4px #e2e2e2;
+  border-top: solid 3px #e2e2e2;
   padding: 1rem 0;
   text-align: center;
 }
